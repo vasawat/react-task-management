@@ -1,5 +1,36 @@
+/* item.css */
 .item {
-    color: black;
+    color: #2d3748;
     display: flex;
     justify-content: space-between;
+    background-color: #f2f5f8;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.item p {
+    font-size: 1.5rem;
+}
+
+.item button {
+    background-color: #e74c3c;
+    color: white;
+    font-size: 1rem;
+    border: transparent;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.item button:hover {
+    background-color: #c0392b;
 }
