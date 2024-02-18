@@ -4,8 +4,9 @@
     display: flex;
     justify-content: space-between;
     background-color: #f2f5f8;
-    padding: 15px;
+    align-items: center;
     margin: 10px 0;
+    padding: 0 10px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;

@@ -12,19 +12,19 @@
 }
 
 .textHead {
-    color: #2ecc71;
+    color: #1f5982;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     transition: color 0.3s ease-in-out;
 }
 
 .textHead:hover {
-    color: #27ae60;
+    color: #34a3cf;
 }
 
 .inputText {
-    flex-grow: 1;
-    padding: 15px;
+    padding-right: 14rem;
+    margin-right: auto;
     border: 2px solid #4a90e2;
     font-size: 1.2rem;
     border-radius: 8px;
@@ -48,4 +48,7 @@
 
 .btn:hover {
     background-color: #4169e1;
+}
+.formControl {
+    display: flex;
 }

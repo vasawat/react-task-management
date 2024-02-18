@@ -12,23 +12,12 @@
     border-radius: 8px;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
-
-.container.dark {
+.dark  {
     background-color: #2d3748;
-     color: #f7fafc;
+    color: #e3e3e3;
 }
 
-.container.light {
-    background-color: #f2f5f8;
-    color: #1a202c;
-}
-
-.app.dark {
-    background-color: #2d3748;
-    color: #f7fafc;
-}
-
-.app.light {
-    background-color: #f2f5f8;
+.light  {
+    background-color: #e3e3e3;
     color: #1a202c;
 }
